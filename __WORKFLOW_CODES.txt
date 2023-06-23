@@ -1,0 +1,50 @@
+#AHVAZ PALM TREE SEGMENTATION BY MOIEN RANGZAN
+
+The final processed data sits at: 
+E:\_palm\dataset_v2\patched_has_tree\w_palm
+
+the data that was uploaded to kaggle sits at:
+E:\_palm\__final_keras_imgen_fomat\data
+
+### dataset_v1:
+is just images i uploaded to apeer.com to mask
+
+### dataset_v2:
+after masking palm trees in apeer.com I download the results in _palm/mask in two folders "palm" which is only normal palms 
+and "palmandcpalm" which we have both palms
+
+background:0
+palm:1
+cpalm:2
+
+I copy and pased "palmandcpalm" into _palm/dataset_v2/mask
+
+then renamed iamges from "EP-11-11323_0190_0003" to 0003 using "1_rename.py"
+
+then used "2_make_masks_binary.py" to save these mask which are .tiff and 012 as .jpg with 0 as non-palm and 255 as palm pixels.
+
+
+
+3- patched
+converet images to pathces using 3 "3_patchify_images.py" and "3_patchify_mask.py"
+
+4-has_tree "patched_has_tree"
+devided images that has palm in them and the ones that dont into two folders
+
+5-pick test images
+moved 1 in every 10 images into test folder for validation of neural network.
+
+6- used augmented sreenicode (which had problem that i resolved)
+to created augmented images
+
+7- remove_low_ratio.py
+some of the augmentet images has a really small portion of a palm in there, we dont want that!
+so we remove images adn their corrisponding mask if the ratio of 255 in a mask to 0s is les than 1 persent
+
+
+###NOTICE 
+since I saved all the files as jpg theres a prboblem with its coperesion, which creates values between 0 and 255 (next time avoid this and use png)
+so make sure to use thresholding to resolve this berfore NN taringing.
+
+8- add empty
+ading some empty images so the nework learns there coulde ber scense that there are not palm trees in them.
