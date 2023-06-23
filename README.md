@@ -13,9 +13,10 @@ Detection and Segmentation of Plam trees is an essential task for monitoring, ge
 U-Net[8] is a "fully-convolutional" CNN architecture introduced by Ronneberger O. et al. This models need fewer training images than the traditional CNNs. This ar-chitecture uses pooling layers instead of upsampling operators to increase the resolu-tion of the output; it also uses "skip-connection" to concatenate each contracting layer to its corresponding extracting layer to increase the localization of objects.
 
 ![U-Net architecture[8]](imgs/unet.png)
-
+*U-Net architecture[8]*
 
 ## Study Area
 The Study area is located in Ahvaz, Khuzestan, Iran, (31:15:33.7, 48:40:3.23) and was acquired in the year 2020 at the shores of Karoon River; the flight campaign was held from morning to afternoon. The camera model was "S.O.D.A" from snseFly with an F-stop of  f/4  and shutter speed of 0.001 [s/sec], the ISO speed was 125 with a wide Focal length of 11 [mm], which flew at the altitude of 230 [m]. The campaign resulted in 440 scenes of 5472x3684 [pxp], with a total area of 2.789 [{km}^2] covered and Average Ground Sampling Distance (GSD) of 5.20[cm]. These images are in RGB.
 
 ![The Orthophoto of the area and its corresponding Digital Surface Model (DSM) Made with Pix4D](imgs/orthophoto.png)
+*The Orthophoto of the area and its corresponding Digital Surface Model (DSM) Made with Pix4D*
