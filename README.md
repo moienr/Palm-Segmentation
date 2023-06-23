@@ -4,7 +4,7 @@ Class of Remote Sensing of Water, Soil, and Plants
 
 Second Semester 2021-22
 
-Dr. Hamzeh saeid.hamzeh@ut.ac.ir - BY: MOIEN RANGZAN
+Dr. Saeed Hamzeh saeid.hamzeh@ut.ac.ir - BY: MOIEN RANGZAN
 ---
 ## Abstract
 
@@ -32,7 +32,8 @@ Multiple image contrast enhancement services are provided by APEER when an-notat
 
 ![Figure 6. An example of scene annotation using APEER](imgs/apeer.png)
 *Figure 6. An example of scene annotation using APEER*
-![Figure 7. An entire scene and its corresponding mask](imgs\full_scene.png)
+
+![Figure 7. An entire scene and its corresponding mask](imgs/full_scene.png)
 *Figure 7. An entire scene and its corresponding mask*
 
 ## Patching The Data
@@ -41,7 +42,7 @@ To feed the dataset to the network, we must divide it into smaller patches of 51
 Small patches give the network confined context, whereas larger patches necessi-tate more max-pooling layers, which decreases the localization accuracy[8].
 In our particular instance, we made a decision to utilize a patch size of 256 by 256 pixels using the Patchify[10] python package. Additionally, we opted to use an over-lapping of 32 pixels in order to prevent the loss of texture at the patch margins
 
-![Figure 8. Some of the patches and their corresponding masks](imgs\patch_example.png)
+![Figure 8. Some of the patches and their corresponding masks](imgs/patch_example.png)
 *Figure 8. Some of the patches and their corresponding masks*
 
 
@@ -54,6 +55,6 @@ In this work, we used two augmentation methods:
 •	Random Mixing;
 In terms of implementation, Geometric Transformations are characterized by their simplicity[11]. This study used Random Rotation, Displacement, Horizontal, and Vertical Flips.
 Another approach is to crop images and concatenate the croppings together ran-domly[11].
-![aug1](imgs\aug1.png)
-![aug1](imgs\aug2.png)
+![aug1](imgs/aug1.png)
+![aug1](imgs/aug2.png)
 *Figure 10. Some of the Augmented data*
