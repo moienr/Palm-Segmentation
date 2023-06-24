@@ -1,4 +1,4 @@
-# Large Scene Instance Segmentation of Palm Trees in Ahvaz City Using U-Net Architecture on High-Resolution UAV Images.
+# Large Scene Segmentation of Palm Trees in Ahvaz City Using U-Net Architecture on High-Resolution UAV Images.
 
 Class of Remote Sensing of Water, Soil, and Plants
 
