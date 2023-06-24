@@ -168,4 +168,37 @@ The accuracy of shape prediction in our network demonstrates that it may be used
 
 ## Conclusions
 
-#TODO
+**#TODO**
+
+
+
+
+## References
+
+[1]	M. Freudenberg, N. Nölke, A. Agostini, K. Urban, F. Wörgötter, and C. Kleinn, “Large scale palm tree detection in high resolution satellite images using U-Net,” *Remote Sensing*, vol. 11, no. 3, Feb. 2019, doi: 10.3390/rs11030312.
+
+[2]	Y. Ampatzidis and V. Partel, “UAV-based high throughput phenotyping in citrus utilizing multispectral imaging and artificial intelligence,” *Remote Sensing*, vol. 11, no. 4, Feb. 2019, doi: 10.3390/rs11040410.
+
+[3]	K. Yarak, A. Witayangkurn, K. Kritiyutanont, C. Arunplod, and R. Shibasaki, “Oil palm tree detection and health classification on high‐resolution imagery using deep learning,” *Agriculture (Switzerland)*, vol. 11, no. 2, pp. 1–17, Feb. 2021, doi: 10.3390/agriculture11020183.
+
+[4]	S. Egli and M. Höpke, “Cnn-based tree species classification using high resolution rgb image data from automated uav observations,” *Remote Sensing*, vol. 12, no. 23, pp. 1–17, Dec. 2020, doi: 10.3390/rs12233892.
+
+[5]	K. O’Shea and R. Nash, “An Introduction to Convolutional Neural Networks,” Nov. 2015, [Online]. Available: http://arxiv.org/abs/1511.08458
+
+[6]	R. Raj, J. P. Walker, R. Pingale, R. Nandan, B. Naik, and A. Jagarlapudi, “Leaf area index estimation using top-of-canopy airborne RGB images,” *International Journal of Applied Earth Observation and Geoinformation*, vol. 96, Apr. 2021, doi: 10.1016/j.jag.2020.102282.
+
+[7]	Z.-H. Zhou and J. Feng, “Deep Forest,” Feb. 2017, [Online]. Available: http://arxiv.org/abs/1702.08835
+
+[8]	O. Ronneberger, P. Fischer, and T. Brox, “U-Net: Convolutional Networks for Biomedical Image Segmentation,” May 2015, [Online]. Available: http://arxiv.org/abs/1505.04597
+
+[9]	“APEER.”
+
+[10]	W. ’Weiyuan, “Patchify.”
+
+[11]	C. Shorten and T. M. Khoshgoftaar, “A survey on Image Data Augmentation for Deep Learning,” *Journal of Big Data*, vol. 6, no. 1, Dec. 2019, doi: 10.1186/s40537-019-0197-0.
+
+[12]	“Smoothly-Blend-Image-Patches.”
+
+[13]	H. A. Hefny, H. M. Elsayed, and H. F. Aly, “Fuzzy multi-criteria decision making model for different scenarios of electrical power generation in Egypt,” *Egyptian Informatics Journal*, vol. 14, no. 2, pp. 125–133, 2013, doi: 10.1016/j.eij.2013.04.001.
+
+[14]	T. Kattenborn, J. Leitloff, F. Schiefer, and S. Hinz, “Review on Convolutional Neural Networks (CNN) in vegetation remote sensing,” *ISPRS Journal of Photogrammetry and Remote Sensing*, vol. 173. Elsevier B.V., pp. 24–49, Mar. 01, 2021. doi: 10.1016/j.isprsjprs.2020.12.010.
