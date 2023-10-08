@@ -13,6 +13,13 @@ Detection and Segmentation of Plam trees is an essential task for monitoring, ge
 
 
 
+## TODO
+Global Map of Oil Palm Plantations
+https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1
+
+
+
+
 ## Architecture
 U-Net[8] is a "fully-convolutional" CNN architecture introduced by Ronneberger O. et al. This models need fewer training images than the traditional CNNs. This ar-chitecture uses pooling layers instead of upsampling operators to increase the resolu-tion of the output; it also uses "skip-connection" to concatenate each contracting layer to its corresponding extracting layer to increase the localization of objects.
 
