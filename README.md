@@ -17,6 +17,8 @@ Detection and Segmentation of Plam trees is an essential task for monitoring, ge
 Global Map of Oil Palm Plantations
 https://developers.google.com/earth-engine/datasets/catalog/BIOPAMA_GlobalOilPalm_v1
 
+HighRes NRGB Dataset
+https://developers.google.com/earth-engine/datasets/catalog/SKYSAT_GEN-A_PUBLIC_ORTHO_MULTISPECTRAL#description
 
 
 
